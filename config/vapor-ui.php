@@ -24,4 +24,19 @@ return [
         EnsureUpToDateAssets::class,
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Vapor UI Queues
+    |--------------------------------------------------------------------------
+    |
+    | Typically, queues that should be monitored will be determined for you
+    | by Vapor UI. However, you are free to add additional queues to the
+    | list below in order to monitor queues that Vapor doesn't manage.
+    |
+    */
+
+    'queues' => [
+
+    ],
+
 ];
