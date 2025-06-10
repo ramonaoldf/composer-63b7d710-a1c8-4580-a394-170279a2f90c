@@ -24,9 +24,8 @@ class SearchResult implements JsonSerializable
     /**
      * Creates a new search result.
      *
-     * @param Collection $entries
-     * @param string|null $cursor
-     *
+     * @param  Collection  $entries
+     * @param  string|null  $cursor
      * @return void
      */
     public function __construct($entries, $cursor)
@@ -40,6 +39,7 @@ class SearchResult implements JsonSerializable
      *
      * @return array
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return (array) $this;
