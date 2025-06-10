@@ -6,6 +6,9 @@ module.exports = {
 
         options: {
             whitelist: [
+                'text-green-900',
+                'text-green-800',
+                'bg-green-100',
                 'text-blue-900',
                 'text-blue-800',
                 'bg-blue-100',
@@ -16,7 +19,7 @@ module.exports = {
                 'text-red-800',
                 'bg-red-100',
                 'text-gray-900',
-                'text-gray800',
+                'text-gray-800',
                 'bg-gray-100',
             ],
         },
